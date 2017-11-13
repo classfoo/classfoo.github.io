@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Chrome Tabs</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="demo/css/demo.css">
+    <link rel="stylesheet" href="css/chrome-tabs.css">
+    <link rel="stylesheet" href="css/chrome-tabs-dark-theme.css">
+  </head>
+  <body>
+    <div class="chrome-tabs-shell">
+      <div class="chrome-tabs">
+        <div class="chrome-tab">
+          <div class="chrome-tab-background">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><symbol id="topleft" viewBox="0 0 214 29" ><path d="M14.3 0.1L214 0.1 214 29 0 29C0 29 12.2 2.6 13.2 1.1 14.3-0.4 14.3 0.1 14.3 0.1Z"/></symbol><symbol id="topright" viewBox="0 0 214 29"><use xlink:href="#topleft"/></symbol><clipPath id="crop"><rect class="mask" width="100%" height="100%" x="0"/></clipPath></defs><svg width="50%" height="100%" transfrom="scale(-1, 1)"><use xlink:href="#topleft" width="214" height="29" class="chrome-tab-background"/><use xlink:href="#topleft" width="214" height="29" class="chrome-tab-shadow"/></svg><g transform="scale(-1, 1)"><svg width="50%" height="100%" x="-100%" y="0"><use xlink:href="#topright" width="214" height="29" class="chrome-tab-background"/><use xlink:href="#topright" width="214" height="29" class="chrome-tab-shadow"/></svg></g></svg>
+          </div>
+          <div class="chrome-tab-favicon" style="background-image: url('demo/images/google-favicon.png')"></div>
+          <div class="chrome-tab-title">Google</div>
+          <div class="chrome-tab-close"></div>
+        </div>
+        <div class="chrome-tab chrome-tab-current">
+          <div class="chrome-tab-background">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><symbol id="topleft" viewBox="0 0 214 29" ><path d="M14.3 0.1L214 0.1 214 29 0 29C0 29 12.2 2.6 13.2 1.1 14.3-0.4 14.3 0.1 14.3 0.1Z"/></symbol><symbol id="topright" viewBox="0 0 214 29"><use xlink:href="#topleft"/></symbol><clipPath id="crop"><rect class="mask" width="100%" height="100%" x="0"/></clipPath></defs><svg width="50%" height="100%" transfrom="scale(-1, 1)"><use xlink:href="#topleft" width="214" height="29" class="chrome-tab-background"/><use xlink:href="#topleft" width="214" height="29" class="chrome-tab-shadow"/></svg><g transform="scale(-1, 1)"><svg width="50%" height="100%" x="-100%" y="0"><use xlink:href="#topright" width="214" height="29" class="chrome-tab-background"/><use xlink:href="#topright" width="214" height="29" class="chrome-tab-shadow"/></svg></g></svg>
+          </div>
+          <div class="chrome-tab-favicon" style="background-image: url('demo/images/facebook-favicon.ico')"></div>
+          <div class="chrome-tab-title">Facebook</div>
+          <div class="chrome-tab-close"></div>
+        </div>
+      </div>
+      <div class="chrome-shell-bottom-bar"></div>
+    </div>
+
+    <br>
+
+    <p><button>Toggle dark theme</button></p>
+
+    <div class="carbonads-wrapper">
+      <script async="true" id="_carbonads_js" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=adamschwartzco"></script>
+    </div>
+
+    <script src="../jquery-2.2.4.js"></script>
+    <script src="../ui/jquery-ui.min.js"></script>
+    <script src="js/chrome-tabs.js"></script>
+    <script>
+      var $chromeTabsExampleShell = $('.chrome-tabs-shell')
+      chromeTabs.init({
+        $shell: $chromeTabsExampleShell,
+        minWidth: 45,
+        maxWidth: 242.5
+      });
+      chromeTabs.addNewTab($chromeTabsExampleShell, {
+        favicon: 'demo/images/eager-favicon.ico',
+        title: 'Eager',
+        data: {
+          timeAdded: +new Date()
+        }
+      });
+      $chromeTabsExampleShell.bind('chromeTabRender', function(){
+        var $currentTab = $chromeTabsExampleShell.find('.chrome-tab-current');
+        if ($currentTab.length && window['console'] && console.log) {
+          console.log('Current tab index', $currentTab.index(), 'title', $.trim($currentTab.text()), 'data', $currentTab.data('tabData').data);
+        }
+      });
+
+      $('button').click(function(){
+        if ($chromeTabsExampleShell.hasClass('chrome-tabs-dark-theme')) {
+          $chromeTabsExampleShell.removeClass('chrome-tabs-dark-theme');
+        } else {
+          $chromeTabsExampleShell.addClass('chrome-tabs-dark-theme');
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,374 @@
+.onyx-view {
+	width: 100%;
+	height: 100%;
+}
+
+.onyx-view-multipage {
+	width: 100%;
+	height: 100%;
+}
+
+/*Onyx View Entity*/
+.onyx-view-entity {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	overflow-y: scroll;
+	background-color: #F2F2F2;
+}
+
+.onyx-view-entity-header {
+	width: 100%;
+	height: auto;
+	min-height: 192px;
+	background-color: white;
+	min-height: 192px;
+}
+
+.onyx-view-entity-header-container {
+	width: 300mm;
+	height: auto;
+	margin: 0 auto;
+	min-height: 192px;
+}
+
+.onyx-view-entity-header-left {
+	float: left;
+	width: 210mm;
+}
+
+.onyx-view-entity-header-right {
+	float: right;
+	width: 85mm;
+	height: 192px;
+	background-color: #EEF4F9;
+}
+
+.onyx-view-entity-header-right-panel {
+	
+}
+
+.onyx-view-entity-info-left {
+	width: 128px;
+	height: 128px;
+	float: left;
+}
+
+.onyx-view-entity-info-right {
+	width: auto;
+	height: 128px;
+	margin-left: 130px;
+}
+
+.onyx-view-entity-info-image {
+	width: 128px;
+	height: 128px;
+	border: 1px solid gray;
+	font-size: 128px;
+	line-height: 128px;
+	text-align: center;
+	color: #1897D7;
+}
+
+.onyx-view-entity-info-labels {
+	width: auto;
+	height: auto;
+	min-height: 48px;
+	padding-top: 10px;
+	margin-left: 5px;
+	min-height: 48px;
+}
+
+.onyx-view-entity-info-label {
+	display: inline-block;
+	background-color: blue;
+	color: black;
+	height: 24px;
+	min-width: 48px;
+	line-height: 24px;
+	text-align: center;
+	margin-right: 5px;
+	border-radius: 24px;
+	background-color: #EEF4F9;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	cursor: pointer;
+}
+
+.onyx-view-entity-info-label-add {
+	display: inline-block;
+	color: gray;
+	height: 24px;
+	min-width: 48px;
+	line-height: 24px;
+	text-align: center;
+	margin-right: 5px;
+	border: 1px solid #F2F2F2;
+	border-radius: 24px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	cursor: pointer;
+}
+
+.onyx-view-entity-info-name {
+	margin-left: 20px;
+	font-size: 24px;
+	line-height: 32px;
+	width: auto;
+}
+
+.onyx-view-entity-info-description {
+	margin-left: 20px;
+	font-size: 12px;
+	width: auto;
+	height: 96px;
+	border: 1px solid #F2F2F2;
+}
+
+.onyx-view-entity-info-description-empty {
+	margin-left: 20px;
+	font-size: 12px;
+	color: gray;
+	width: auto;
+	height: 96px;
+	text-align: center;
+	line-height: 96px;
+	border: 1px dashed #F2F2F2;
+}
+
+.onyx-view-entity-body {
+	width: 100%;
+	height: auto;
+}
+
+.onyx-view-entity-body-container {
+	width: 300mm;
+	margin: 0 auto;
+}
+
+.onyx-view-entity-page {
+	position: relative;
+	width: 210mm;
+	height: auto;
+	min-height: 297mm;
+	margin-top: 20px;
+	padding: 5mm;
+	border: 1px solid #F2F2F2;
+	background-color: white;
+	border-radius: 3px;
+	float: left;
+}
+
+.onyx-view-entity-navbar {
+	border-bottom: 1px solid #EEF4F9;
+}
+
+.onyx-view-entity-property {
+	display: block;
+	float: left;
+	width: 128px;
+	height: 64px;
+	background-color: #F2F2F2;
+	margin: 10px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.onyx-view-entity-property-key {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+}
+
+.onyx-view-entity-property-value {
+	display: block;
+	width: 100%;
+	text-overflow: ellipsis;
+}
+
+.onyx-view-entity-paragraph {
+	position: relative;
+	width: 200mm;
+	height: auto;
+	min-height: 32px;
+	margin: 0px;
+}
+
+.onyx-view-entity-panel {
+	width: 85mm;
+	height: auto;
+	float: right;
+	margin-top: 20px;
+	background-color: white;
+}
+
+.onyx-view-entity-panel-header {
+	width: 100%;
+	height: 32px;
+	font-size: 16px;
+	line-height: 32px;
+	padding-left: 5px;
+	border-bottom: 1px solid #F2F2F2;
+}
+
+.onyx-view-entity-panel-body {
+	width: 100%;
+	height: auto;
+}
+
+.onyx-view-entity-panel-footer {
+	width: 100%;
+	height: 32px;
+	font-size: 16px;
+	line-height: 32px;
+	text-align: center;
+	border-top: 1px solid #F2F2F2;
+}
+
+.onyx-view-entity-panel-canvas {
+	width: 100%;
+	height: 85mm;
+}
+
+.onyx-view-entity-panel-graph-icon {
+	width: 128px;
+	height: 128px;
+	font-size: 96px;
+	line-height: 128px;
+	color: gray;
+}
+
+.onyx-view-entity-tools {
+	position: absolute;
+	width: 32px;
+	height: 128px;
+	top: 50%;
+	right: 10px;;
+	margin-top: -64px;
+	margin-left: 105mm;
+	border-radius: 16px;
+	background-color: white;
+	margin-left: 105mm;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	-webkit-box-shadow: 0 0 1px 1px #ccc;
+	-moz-box-shadow: 0 0 1px 1px #ccc;
+	-o-box-shadow: 0 0 1px 1px #ccc;
+	-ms-box-shadow: 0 0 1px 1px #ccc;
+	box-shadow: 0 0 1px 1px #ccc;
+	-webkit-box-shadow: 0 0 1px 1px #ccc;
+}
+
+.onyx-view-entity-tool {
+	margin-bottom: 2px;
+}
+
+.onyx-view-entity-footer {
+	display: inline-block;
+	height: 32px;
+	width: 100%;
+	text-align: center;
+	line-height: 32px;
+}
+
+/*View Entity Properties*/
+.onyx-view-entity-properties {
+	width:100%;
+	height:100%;
+}
+
+.onyx-view-entity-properties-toolbar {
+	width: 100%;
+	height: 32px;
+	line-height:32px;
+	background-color:#F2F2F2;
+}
+
+/*View Entity Links*/
+.onyx-view-entity-links{
+	width:100%;
+	height:100%;
+}
+
+.onyx-view-entity-links-toolbar{
+	width: 100%;
+	height: 32px;
+	border-bottom: 1px solid #F2F2F2;
+}
+
+/*View Label*/
+.onyx-view-label {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	overflow-y: scroll;
+	background-color: #F2F2F2;
+}
+
+.onyx-view-label-header {
+	width: 100%;
+	height: 30px;
+}
+
+.onyx-view-label-body {
+	width: 100%;
+	height: auto;
+}
+
+.onyx-view-label-footer {
+	width: 100%;
+	height: 30px;
+}
+
+.onyx-view-label-page {
+	position: relative;
+	width: 210mm;
+	height: auto;
+	left: 50%;
+	margin-left: -105mm;
+	padding: 5mm;
+	border: 1px solid #F2F2F2;
+	background-color: white;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 0 1px 1px #ccc;
+	-moz-box-shadow: 0 0 1px 1px #ccc;
+	-o-box-shadow: 0 0 1px 1px #ccc;
+	-ms-box-shadow: 0 0 1px 1px #ccc;
+	box-shadow: 0 0 1px 1px #ccc;
+}
+
+.onyx-view-label-paragraph {
+	position: relative;
+	width: 200mm;
+	height: auto;
+	min-height: 32px;
+	margin: 0px;
+}
+
+.onyx-view-label-tools {
+	position: absolute;
+	width: 32px;
+	height: 128px;
+	top: 50%;
+	left: 50%;
+	margin-top: -64px;
+	margin-left: 105mm;
+	border-radius: 16px;
+	background-color: white;
+	margin-left: 105mm;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	-webkit-box-shadow: 0 0 1px 1px #ccc;
+	-moz-box-shadow: 0 0 1px 1px #ccc;
+	-o-box-shadow: 0 0 1px 1px #ccc;
+	-ms-box-shadow: 0 0 1px 1px #ccc;
+	box-shadow: 0 0 1px 1px #ccc;
+}
+
+.onyx-view-label-tool {
+	margin-bottom: 2px;
+}

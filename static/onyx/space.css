@@ -1,0 +1,30 @@
+.onyx-space {
+	height: 100%;
+	width: 100%;
+}
+
+.onyx-space-layout-header {
+	text-align: center;
+	border-bottom: 1px solid #F2F2F2;
+}
+
+.onyx-space-headerlayout-right {
+	text-align: right;
+}
+
+.onyx-space-leak {
+	width: 100%;
+	height: 100%;
+	background-color: #F2F2F2;
+	overflow-y:scroll;
+}
+
+.onyx-space-leak-page {
+	position: relative;
+	width: 210mm;
+	min-height: 297mm;
+	left: 50%;
+	margin-left: -105mm;
+	padding: 5mm;
+	background-color: #F2F2F2;
+}

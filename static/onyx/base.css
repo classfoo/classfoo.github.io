@@ -1,0 +1,211 @@
+.onyx-base {
+	height: 100%;
+	width: 100%;
+}
+
+.onyx-base-layout {
+	width: 100%;
+	height: 100%;
+}
+
+.onyx-base-layout-header {
+	text-align: center;
+	border-bottom: 1px solid #F2F2F2;
+}
+
+.onyx-base-headerlayout-right {
+	text-align: right;
+}
+
+/*layout left navbar item*/
+.onyx-base-navbar .onyx-ui-navbar-item {
+	margin-bottom: 5px;
+	height: 36px !important;
+	line-height: 36px !important;
+}
+
+/* knowledgebase home*/
+.onyx-base-home {
+	width: 100%;
+	height: 100%;
+	background-color: #F2F2F2;
+	overflow-y: scroll;
+}
+
+.onyx-base-home-header {
+	position: relative;
+	width: 100%;
+	background-color: #FF0022;
+	text-align: center;
+}
+
+.onyx-base-home-header-icon {
+	width: 100%;
+	font-size: 64px;
+	text-align: center;
+	color: white;
+}
+
+.onyx-base-home-header-title {
+	width: 100%;
+	font-size: 24px;
+	text-align: center;
+	color: white;
+}
+
+.onyx-base-home-header-desc {
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	font-size: 16px;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+}
+
+.onyx-base-home-header-nav {
+	width: 100%;
+}
+
+.onyx-base-home-header-nav .onyx-ui-navbar-item-active {
+	background-color: #F2F2F2;
+}
+
+.onyx-base-home-header-nav .onyx-ui-navbar-item-over {
+	background-color: #F2F2F2;
+}
+
+.onyx-base-home-body {
+	width: 100%;
+	height: auto;
+	background-color: #F2F2F2;
+}
+
+.onyx-base-home-body-container {
+	width: 300mm;
+	margin: 0 auto;
+	height: 192px;
+}
+
+.onyx-base-home-body-page {
+	position: relative;
+	float: left;
+	width: 210mm;
+	min-height: 210mm;
+	padding-top: 5mm;
+	width: 210mm;
+}
+
+.onyx-base-home-body-panel {
+	width: 85mm;
+	height: auto;
+	float: right;
+	margin-top: 20px;
+	background-color: white;
+}
+
+.onyx-base-home-body-panel-header {
+	width: 100%;
+	height: 32px;
+	font-size: 16px;
+	line-height: 32px;
+	padding-left: 5px;
+	border-bottom: 1px solid #F2F2F2;
+}
+
+.onyx-base-home-body-panel-body {
+	display: block;
+	width: 252px;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.onyx-base-home-body-panel-body-item {
+	display: inline-block;
+	margin: 10px;
+	float: left;
+	cursor:pointer;
+}
+
+.onyx-base-home-body-panel-body-item-icon {
+	width: 64px;
+	height: 64px;
+	font-size: 32px;
+	line-height: 64px;
+	text-align: center;
+	color: white;
+	background-color: gray;
+	border-radius: 10px;
+}
+
+.onyx-base-home-body-panel-body-item-text {
+	width: 64px;
+	height: 18px;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	color: black;
+}
+
+.onyx-base-home-body-panel-footer {
+	width: 100%;
+	height: 32px;
+	font-size: 16px;
+	line-height: 32px;
+	text-align: center;
+	border-top: 1px solid #F2F2F2;
+}
+
+/*Onyx Base Home Page Footer*/
+.onyx-base-home-footer {
+	display: inline-block;
+	height: 32px;
+	width: 100%;
+	text-align: center;
+	line-height: 32px;
+}
+
+/*knowledgebase entities*/
+.onyx-base-knowledges {
+	height: 100%;
+	width: 100%;
+	background-color: white;
+}
+
+.onyx-base-knowledges-layout-header {
+	border-bottom: 1px solid #F2F2F2;
+}
+
+.onyx-base-knowledges-layout-left {
+	
+}
+
+.onyx-base-knowledges-layout-right {
+	border-left: 1px solid #F2F2F2;
+}
+
+/*knowledgebase labels*/
+.onyx-base-labels {
+	height: 100%;
+	width: 100%;
+}
+
+.onyx-base-labels-container {
+	height: 100%;
+	width: 100%;
+	background-color: white;
+}
+
+.onyx-base-labels-layout-header {
+	height: 100%;
+	width: 100%;
+	background-color: #00b1eb;
+}
+
+.onyx-base-labels-layout-body {
+	height: 100%;
+	width: 100%;
+	background-color: #FFFFFF;
+	border-radius: 1px;
+}

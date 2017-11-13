@@ -1,0 +1,37 @@
+/* Onyx App*/
+.onyx-app {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+/*Nav Bar*/
+.onyx-app-topbar {
+	height: 100%;
+	width: 100%;
+	background-color: #3095e2;
+}
+
+.onyx-app .onyx-ui-layout-body{
+	background-color: #c6d9ef;
+}
+
+.onyx-app .onyx-app-space{
+	height: 100%;
+	width: 100%;
+	background-color: #aabbee;
+}
+
+.onyx-app .onyx-app-personal{
+	height: 100%;
+	width: 100%;
+	background-color: #ffbbee;
+}
+
+.onyx-app .onyx-app-settings{
+	height: 100%;
+	width: 100%;
+	background-color: #aaffff;
+}

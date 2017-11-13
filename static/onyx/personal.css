@@ -1,0 +1,86 @@
+.onyx-personal {
+	height: 100%;
+	width: 100%;
+	padding: 5px;
+}
+
+
+/*layout header*/
+.onyx-personal-layout-header {
+	text-align:center;
+	border-bottom:1px solid #F2F2F2;
+}
+
+/*layout middle*/
+.onyx-personal .onyx-ui-layout-middle {
+	height: 100%;
+	width: 100%;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+}
+
+/*personal files*/
+.onyx-personal-home {
+	height: 100%;
+	width: 100%;
+}
+
+.onyx-personal-home .onyx-ui-layout-middle {
+	height: 100%;
+	width: 100%;
+	background-color: #FFFFFF;
+	border-radius: 1px;
+}
+
+/*personal files*/
+.onyx-personal-files {
+	height: 100%;
+	width: 100%;
+}
+
+.onyx-personal-files .onyx-ui-layout-middle {
+	height: 100%;
+	width: 100%;
+	background-color: #FFFFFF;
+	border-radius: 1px;
+}
+
+/*personal favorite*/
+.onyx-personal-favorite {
+	height: 100%;
+	width: 100%;
+}
+
+.onyx-personal-favorite .onyx-ui-layout-middle {
+	height: 100%;
+	width: 100%;
+	background-color: #FFFFFF;
+	border-radius: 1px;
+}
+
+/*personal share*/
+.onyx-personal-share {
+	height: 100%;
+	width: 100%;
+}
+
+.onyx-personal-share .onyx-ui-layout-middle {
+	height: 100%;
+	width: 100%;
+	background-color: #FFFFFF;
+	border-radius: 1px;
+}
+
+/*personal trash*/
+.onyx-personal-trash {
+	height: 100%;
+	width: 100%;
+}
+
+.onyx-personal-trash .onyx-ui-layout-middle {
+	height: 100%;
+	width: 100%;
+	background-color: #FFFFFF;
+	border-radius: 1px;
+}

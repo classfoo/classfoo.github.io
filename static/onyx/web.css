@@ -1,0 +1,97 @@
+/* Onyx App*/
+.onyx-web {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.onyx-web-layout-header {
+	z-index: 100;
+	-webkit-box-shadow: 0 1px 3px 0 rgba(0, 37, 55, .1);
+	box-shadow: 0 1px 3px 0 rgba(0, 37, 55, .1);
+}
+
+/*Nav Bar*/
+.onyx-web-topbar {
+	height: 100%;
+	width: 100%;
+	background-color: #3095e2;
+	z-index: 1000;
+}
+
+.onyx-web-topbar-icon {
+	color: #FFFFFF;
+	margin-left: 26px;
+	margin-top: 14px;
+	font-size: 18px;
+	line-height: 18px;
+}
+
+/*Body*/
+.onyx-web .onyx-ui-layout-body {
+	
+}
+
+/*Search Bar*/
+.onyx-web-topbar-search {
+	position: absolute;
+	top: 50%;
+	margin-top: -12px;
+	width: 100%;
+	height: 24px;
+	background-color: white;
+	overflow: hidden;
+}
+
+.onyx-web-topbar-search-breadcrumb {
+	display: inline-block;
+	//background-color:#DFF6F8;
+	border-right: 1px solid #DFF6F8;
+}
+
+.onyx-web-topbar-search-searchbox {
+	display: inline-block;
+	position: absolute;
+	display: inline-block;
+	width: 100%;
+	top: 0px;
+	height: 24px;
+}
+
+.onyx-web-topbar-search-shadow {
+	-webkit-box-shadow: 0px 0px 5px 2px rgba(0, 13, 255, 1);
+	-moz-box-shadow: 0px 0px 5px 2px rgba(0, 13, 255, 1);
+	box-shadow: 0px 0px 5px 2px rgba(0, 13, 255, 1);
+}
+
+/*Navbar Item TopBar*/
+.onyx-ui-navbar-topbar {
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.onyx-ui-navbar-topbar-item {
+	position: relative;
+	display: table-cell;
+	font-size: 18px;
+	color: white;
+	line-height: 46px;
+	vertical-align: bottom;
+	text-align: center;
+	cursor: pointer;
+}
+
+/*Navbar item active*/
+.onyx-ui-navbar-topbar-item-active {
+	
+}
+
+/*Navbar item over*/
+.onyx-ui-navbar-topbar-item-over {
+	font-size: 20px;
+}

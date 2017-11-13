@@ -1,0 +1,13 @@
+.onyx-search {
+	height: 100%;
+	width: 100%;
+}
+
+.onyx-search-layout-header {
+	text-align: center;
+	border-bottom: 1px solid #F2F2F2;
+}
+
+.onyx-search-headerlayout-right {
+	text-align: right;
+}

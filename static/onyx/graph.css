@@ -1,0 +1,19 @@
+.onyx-graph {
+	width: 100%;
+	height: 100%;
+	//background-image: radial-gradient(circle at 50% 50%, #356E8E, #315B85);
+}
+
+.onyx-graph-base {
+	width: 100%;
+	height: 100%;
+	//background-color:#F2F2F2;
+	//background-image: radial-gradient(circle at 50% 50%, #356E8E, #315B85);
+}
+
+.onyx-graph-entity {
+	width: 100%;
+	height: 100%;
+	//background-color:#F2F2F2;
+	//background-image: radial-gradient(circle at 50% 50%, #356E8E, #315B85);
+}
