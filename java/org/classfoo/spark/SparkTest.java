@@ -5,8 +5,15 @@ import org.apache.spark.sql.SparkSession;
 
 public class SparkTest {
 	public static void main(String[] args) {
-		String logFile = "YOUR_SPARK_HOME/README.md"; // Should be some file on your system
-		SparkSession spark = SparkSession.builder().appName("Simple Application").getOrCreate();
+		//		SparkConf conf = new SparkConf().setMaster("spark://ClassFoomatoMacBook-Pro.local:7077").setAppName("HelloSpark");
+		//		try (JavaSparkContext jsc = new JavaSparkContext(conf)) {
+		//			// do something here  
+		//			JavaRDD<Integer> data = jsc.parallelize(Arrays.asList(1, 2, 3, 4, 5));
+		//			data.reduce((a, b) -> a + b);
+		//		}
+
+		String logFile = "/succez/test/test.csv"; // Should be some file on your system
+		SparkSession spark = SparkSession.builder().master("local[3]").appName("Simple Application").getOrCreate();
 		Dataset<String> logData = spark.read().textFile(logFile).cache();
 
 		long numAs = logData.filter(s -> s.contains("a")).count();
